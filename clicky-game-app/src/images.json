@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "imagePath": "./images/IMG_2135.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 2,
+        "imagePath": "./images/IMG_2135.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 3,
+        "imagePath": "./images/IMG_2613.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 4,
+        "imagePath": "./images/IMG_3358.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 5,
+        "imagePath": "./images/IMG_3500.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 6,
+        "imagePath": "./images/IMG_3517.JPG",
+        "clicked": "false"
+
+    },
+    {
+        "id": 7,
+        "imagePath": "./images/IMG_3726.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 8,
+        "imagePath": "./images/IMG_3789.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 9,
+        "imagePath": "./images/IMG_3891.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 10,
+        "imagePath": "./images/IMG_3901.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 11,
+        "imagePath": "./images/IMG_4003.JPG",
+        "clicked": "false"
+    },
+    {
+        "id": 12,
+        "imagePath": "./images/IMG_4074.JPG",
+        "clicked": "false"
+    }
+]

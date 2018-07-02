@@ -1,5 +1,6 @@
 import React from "react";
-import IMG_2135 from "./images/IMG_2135.JPG"
+// import IMG_2135 from "./images/IMG_2135.JPG"
+
 
 const styles = {
     imageStyle: {
@@ -7,39 +8,14 @@ const styles = {
     }
 };
 
-const Card = () => (
-    <div className="container card-columns">
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
+const Card = props => (
+        <span onClick={() => props.handleClickedStatus(props.id)}>
+            <div className="card">
+                <div className="card-body img-container">
+                    <img alt={"image " + props.id + " - " + props.clicked} style={styles.imageStyle} src={props.imagePath}/>
+                </div>
             </div>
-        </div>
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
-            </div>
-        </div>
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
-            </div>
-        </div>
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
-            </div>
-        </div>
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
-            </div>
-        </div>
-        <div className="card">
-            <div className="card-body">
-                <img alt="image" style={styles.imageStyle} src={IMG_2135}/>
-            </div>
-        </div>
-    </div>
+        </span>
 );
 
 export default Card;

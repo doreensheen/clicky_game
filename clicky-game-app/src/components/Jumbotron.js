@@ -1,9 +1,9 @@
 import React from "react";
 
-const Jumbotron = () => (
+const Jumbotron = props => (
     <div className="jumbotron">
-        <h1>Instructions</h1>
-        <p>type instructions here</p>
+        <h1>Clicky Game</h1>
+        <p>You've guessed {props.count} right.</p>
     </div>
 );
 
